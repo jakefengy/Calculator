@@ -1,0 +1,51 @@
+/* pages/calculator/calculator.wxss */
+.content{
+  height: 100%;
+  width: 750rpx;
+  display:flex;
+  align-items: center;
+  background-color: #e7e7e7;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+}
+
+.screen{
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  text-align: right;
+  width: 720rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-right: 10rpx;
+}
+
+.btn-action{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-action-item{
+  width: 160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+  background-color: #bababa;
+}
+
+.btn-num{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-num-item{
+  width: 160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 150rpx;
+  background-color: #bababa;
+}

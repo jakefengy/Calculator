@@ -1,0 +1,41 @@
+<view class="content">
+
+    <view class="screen">
+        0
+    </view>
+
+    <view class="btn-action">
+        <view class="btn-action-item" bindtap="backspace">退格</view>
+        <view class="btn-action-item" bindtap="clear">清屏</view>
+        <view class="btn-action-item">+/-</view>
+        <view class="btn-action-item" bindtap="sum">+</view>
+    </view>
+
+    <view class="btn-num">
+        <view class="btn-num-item" bindtap="num9">9</view>
+        <view class="btn-num-item" bindtap="num8">8</view>
+        <view class="btn-num-item" bindtap="num7">7</view>
+        <view class="btn-num-item" bindtap="sub">-</view>
+    </view>
+
+    <view class="btn-num">
+        <view class="btn-num-item" bindtap="num6">6</view>
+        <view class="btn-num-item" bindtap="num5">5</view>
+        <view class="btn-num-item" bindtap="num4">4</view>
+        <view class="btn-num-item" bindtap="mul">×</view>
+    </view>
+
+    <view class="btn-num">
+        <view class="btn-num-item" bindtap="num3">3</view>
+        <view class="btn-num-item" bindtap="num2">2</view>
+        <view class="btn-num-item" bindtap="num1">1</view>
+        <view class="btn-num-item" bindtap="div">÷</view>
+    </view>
+
+    <view class="btn-num">
+        <view class="btn-num-item" bindtap="num0">0</view>
+        <view class="btn-num-item" bindtap="numdot">.</view>
+        <view class="btn-num-item" bindtap="history">历史</view>
+        <view class="btn-num-item" bindtap="result">=</view>
+    </view>
+</view>
